@@ -25,8 +25,9 @@
  * @return {number}
  */
 var lengthOfLastWord = function(s) {
-	//s = s.trim();
-	s = s.replace(/^\s+|\s+$/g,'')
+
+	s = s.replace(/^\s+|\s+$/g,'');
+
 	if(!s.length){
 		return 0;
 	}
@@ -34,11 +35,10 @@ var lengthOfLastWord = function(s) {
 	let res = 0;
     for(let len = s.length,i=len-1;i>=0;i--){
     	let ch = s.charAt(i);
-    	if(ch===' ' && res){
-    		return res;
-    	}
     	if(ch!==' '){
     		res++;
+    	}else{
+    		return res;
     	}
     }
     return res;
