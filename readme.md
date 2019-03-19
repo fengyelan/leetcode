@@ -9,4 +9,4 @@ npm install -g parcel-bundler
 
 
 * 浏览器运行 ```http://localhost:1234/```
-  console里面打印出来
+* console里面打印出来
