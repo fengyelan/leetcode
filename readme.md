@@ -1,9 +1,6 @@
 ##### 启动命令
 
-* 首先全局安装parcel
-```
-npm install -g parcel-bundler
-```
+* 首先全局安装parcel```npm install -g parcel-bundler```
 
 * npm run start
 
